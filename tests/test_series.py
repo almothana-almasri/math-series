@@ -1,5 +1,5 @@
 import pytest
-from series import fibonacci, lucas, sum_series
+from Lab02.series import fibonacci, lucas, sum_series
 
 def test_fibonacci():
     assert fibonacci(0) == 0
